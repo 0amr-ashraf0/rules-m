@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('message', message => {
-            if (message.content.startsWith("r!rules")) {
+            if (message.content.startsWith("!rules")) {
      let embed = new Discord.RichEmbed()
 .addField('     اولا ' ,' ممنوع السب ')
 .addField('     ثانيا ' ,' لا تسوي سبام  ')
